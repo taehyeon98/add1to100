@@ -16,4 +16,6 @@ int main()
     }
     cout << sum << '\n';
     cout << sumMulThree << '\n';
+
+    return 0;
 }
