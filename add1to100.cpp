@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-    int sum = 0;
-    int sumMulThree = 0;
+    int Sum = 0;
+    int SumMulThree = 0;
     for (int i = 1; i <= 100; i++)
     {
-        sum = sum + i;
+        Sum = Sum + i;
         if (i % 3 == 0)
         {
-            sumMulThree = sumMulThree + i;
+            SumMulThree = SumMulThree + i;
         }
     }
-    cout << sum << '\n';
-    cout << sumMulThree << '\n';
+    cout << Sum << '\n';
+    cout << SumMulThree << '\n';
 
     return 0;
 }
